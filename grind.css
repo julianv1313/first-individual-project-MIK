@@ -1,64 +1,74 @@
-.container{
-    display: flex;
-    flex-direction: column;
-    max-width: 1440px;
-    align-items: center;
-}
+@media (min-width: 720px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        max-width: 1440px;
+        align-items: center;
+    }
+    
+    .primer-bloque{
+        display: flex;
+        flex-direction: row;  
+        grid-gap: 40px;
+    
+    }
 
-.primer-bloque{
-    display: flex;
-    flex-direction: row;  
-    grid-gap: 40px;
+    .primer-bloque .primer-bloque__2{
+        display: flex;
+        flex-direction: row;   
+    }
+    
+    
+    .segundo-bloque{
+        display: flex;
+        flex-direction: row;  
+    }
+    
+    .segundo-bloque .segundo-bloque__1{
+        display: flex;
+        flex-direction: row;  
+    }
+    
+    .tercer-bloque{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .tercer-bloque .tercer-bloque__2{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .cuarto-bloque{
+        display: grid;
+        grid-template-columns: 80% 20%;
+    }
+    
+    .quinto-bloque{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .quinto-bloque__2{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .sexto-bloque{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .sexto-bloque .sexto-bloque__1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sexto-bloque .sexto-bloque__1 .sexto-bloque__1__2{
+        display: flex;
+        flex-direction: column;
+    } 
 
-}
+  }
 
-.segundo-bloque{
-    display: flex;
-    flex-direction: row;  
-}
-
-.segundo-bloque .segundo-bloque__1{
-    display: flex;
-    flex-direction: row;  
-}
-
-.tercer-bloque{
-    display: flex;
-    flex-direction: column;
-}
-
-.tercer-bloque .tercer-bloque__2{
-    display: flex;
-    flex-direction: row;
-}
-
-.cuarto-bloque{
-    display: grid;
-    grid-template-columns: 80% 20%;
-}
-
-.quinto-bloque{
-    display: flex;
-    flex-direction: row;
-}
-
-.quinto-bloque__2{
-    display: flex;
-    flex-direction: row;
-}
-
-.sexto-bloque{
-    display: flex;
-    flex-direction: row;
-}
-
-.sexto-bloque .sexto-bloque__1{
-    display: flex;
-    flex-direction: column;
-}
-
-.sexto-bloque .sexto-bloque__1 .sexto-bloque__1__2{
-    display: flex;
-    flex-direction: column;
-}
     
