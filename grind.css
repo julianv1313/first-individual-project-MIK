@@ -1,29 +1,30 @@
+
 .primer-bloque{
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 50% 50%;
+    align-items: center;
 }
 
 .primer-bloque__2{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    /*display: grid;
+    grid-template-columns: repeat(4,1fr);*/
+    display: flex;
+    flex-direction: row;
+    grid-gap: 25px;
 }
+
 
 .segundo-bloque{
     display: grid;
-    grid-gap: 20px;
-    grid-template-columns: repeat(2, 1fr) ;
-    grid-template-rows: repeat(4,1fr) ;
-    
-}
-
-.segundo-bloque{
-    display: grid;
-    grid-template-rows: repeat(2,1fr) ;
+    flex-direction: row;
+    position: relative;
+    left: 8%; /*  REVISAR CON SHIMMY */
+    right: 8%; /*  REVISAR CON SHIMMY */
 }
 
 .segundo-bloque__1{
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    flex-direction: row;
 }
 
 .tercer-bloque{
