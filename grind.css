@@ -1,0 +1,67 @@
+.primer-bloque{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.primer-bloque__2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.segundo-bloque{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: repeat(4,1fr) ;
+    
+}
+
+.segundo-bloque{
+    display: grid;
+    grid-template-rows: repeat(2,1fr) ;
+}
+
+.segundo-bloque__1{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.tercer-bloque{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.tercer-bloque__2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.cuarto-bloque{
+    display: grid;
+    grid-template-columns: 80% 20%;
+}
+
+.quinto-bloque{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.quinto-bloque__2{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.sexto-bloque{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.sexto-bloque__1{
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.sexto-bloque__1__2{
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+}
