@@ -72,7 +72,8 @@
 
 .segundo-bloque__1__1{
     max-width: 50%;
-    color:  #ffffff;  
+    color:  #ffffff; 
+    
 }
 
 .segundo-bloque__1__1  h2 {
@@ -92,5 +93,34 @@
 }
 
 
-.segundo-bloque__1__2{
+.segundo-bloque__1__1  a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1px #ffffff solid;
+    padding: 12px;
+    bottom: 55%; /* CAMBIAR CODIGO */ 
+    position: absolute;  /* CAMBIAR CODIGO */ 
+
+}
+
+/* AAAAAAAAAAAAAAAAAAAAAA */
+
+.tercer-bloque{
+    height: 350px;
+    max-width: 80%;
+    border: solid 1px yellow;
+
+}
+
+.tercer-bloque__1 h2{
+    font-size: 65px;
+}
+
+.tercer-bloque__2 h3{
+    font-size: 27px;  
+}
+
+.tercer-bloque__2 p{
+    font-size: 18px;
+    line-height: 25px;  
 }
