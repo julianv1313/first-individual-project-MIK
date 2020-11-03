@@ -73,7 +73,7 @@
     .segundo-bloque .segundo-bloque__1 .segundo-bloque__1__2{
     } 
     
-    .segundo-bloque__1__2__1{
+    .segundo-bloque__1__2{
         background-image: url(./images/image-intro-desktop.jpg);
         width: 100%;
         height: 100%;
@@ -152,6 +152,9 @@
 }
 
 @media (max-width: 420px){
+    .container{
+        position: relative;
+    }
 
     .primer-bloque{
         padding: 20px;
@@ -210,47 +213,88 @@
         padding-left: 25px;
     }
             
-
+    .tercer-bloque{
+        padding-top: 110px ;
+        position: relative;
+        padding-bottom: 50px;
+    }
     .tercer-bloque__1{
-        font-size: 26px;
+        font-size: 28px;        
+        padding-bottom: 30px;
     }
 
+    .tercer-bloque__1::before{
+        display: block;
+        content: "";
+        border-top: green 1px solid;
+        width: 50%;
+        position: absolute;
+        right: 23%;
+    }
+
+    .tercer-bloque__2__1{
+        padding-bottom: 45px;
+    }
     .tercer-bloque__2__1 h3{
         font-size: 23px ;
+        margin: 0px;
+        padding-top: 30px ;
+        padding-bottom: 4px ;
     }
 
     .tercer-bloque__2__1 p{
         line-height: 24px;
         text-align: center;
+        padding-left: 10px ;
+        padding-right: 10px ;
     }
 
     .cuarto-bloque{
         background-color: aquamarine;
-        height: 250px;
+        height: 270px;
+        padding-top: 70px;
     }
 
-    .cuarto-bloque > div h2{
+    .cuarto-bloque__1 h2{
         color:  #ffffff;
-        font-size: 35px;
+        font-size: 38px;
         text-align: center;
         padding-left: 20px;
         padding-right: 20px;
         margin: 0px;
-        line-height: 40px;
+        line-height: 35px;
+        padding-bottom: 20px;
     }
 
     .cuarto-bloque__2{
         text-decoration: none;
         color: #ffffff;
         border: 1px solid #ffffff;
-        padding: 20px;
+        padding: 10px;
+        padding-left: 20px ;
+        padding-right: 20px;
         margin-top: 20px;
     }
 
     .quinto-bloque{
-        margin-top: 180px;
+        margin-top: 130px;
         padding: 40px;
+        padding-top: 70px;
         line-height: 40px;
+        background-color: hsl(270, 9%, 17%);
+    }
+
+    .quinto-bloque::before{
+        display: block;
+        content: "";
+        border-bottom: 1px solid green;
+        position: absolute;
+        width: 80%;
+
+    }
+
+    .quinto-bloque__1{
+        padding-bottom: 17px;
     }
 
     .quinto-bloque__2{
