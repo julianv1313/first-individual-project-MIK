@@ -29,6 +29,11 @@
         flex-direction: row;  
     }
     
+    .segundo-bloque .segundo-bloque__1 .segundo-bloque__1__1{
+        display: flex;
+        flex-direction: row;  
+    }
+
     .tercer-bloque{
         display: flex;
         flex-direction: column;
@@ -43,6 +48,7 @@
         display: grid;
         grid-template-columns: 80% 20%;
     }
+    
     
     .quinto-bloque{
         display: flex;
