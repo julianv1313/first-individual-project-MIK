@@ -141,15 +141,27 @@
 
 @media (max-width: 420px){
 
+    .segundo-bloque{
+        height: 600px;
+    }
     .segundo-bloque__1__1__1{
         background-color: blue;
         align-items: center;
         height: 400px;
         max-width: 100%;
+        color: #ffffff;
+
         }
 
+    .segundo-bloque__1__2__1{
+        background-image: url(./images/image-intro-mobile.jpg);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+    
+    }
 
-
+            
 
 
 
