@@ -150,12 +150,15 @@
 @media (max-width: 420px){
 
     .segundo-bloque{
-        height: 700px;
+        height: 800px;
+    }
+
+    .segundo-bloque__1{
     }
     .segundo-bloque__1__1__1{
         background-color: blue;
         align-items: center;
-        height: 400px;
+        height: 500px;
         max-width: 100%;
         color: #ffffff;
 
@@ -170,6 +173,23 @@
     
     }
 
+    .segundo-bloque__1__1__1 h2{
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .segundo-bloque__1__1__1 p{
+        line-height: 30px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .segundo-bloque__1__1__1 a{
+        color: #ffffff;
+        text-decoration: none;
+        border: 1px solid #ffffff;
+        padding: 25px;
+    }
             
 
 
