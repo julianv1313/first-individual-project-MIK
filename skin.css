@@ -160,6 +160,9 @@
         padding: 20px;
     }
 
+    .primer-bloque__1{
+        padding-top: 20px;
+    }
     .primer-bloque__2{
         font-size: 0px;
     }
@@ -171,12 +174,18 @@
         height: 950px; 
     }
     .segundo-bloque__1__1{
-        background-color: blue;
+        background-color: hsl(256, 26%, 20%);
         align-items: center;
         color: #ffffff;
         padding-bottom: 100px;
         padding-top: 100px;
         }
+
+    .segundo-bloque__1__1{
+        background-image: url(./images/bg-pattern-intro-left-mobile.svg);
+        background-repeat: no-repeat; 
+    }
+    
 
     .segundo-bloque__1__2{
         background-image: url(./images/image-intro-mobile.jpg);
@@ -218,6 +227,7 @@
         position: relative;
         padding-bottom: 50px;
     }
+
     .tercer-bloque__1{
         font-size: 28px;        
         padding-bottom: 30px;
@@ -226,7 +236,7 @@
     .tercer-bloque__1::before{
         display: block;
         content: "";
-        border-top: green 1px solid;
+        border-top: hsl(273, 4%, 51%) 2px solid;
         width: 50%;
         position: absolute;
         right: 23%;
@@ -250,10 +260,15 @@
     }
 
     .cuarto-bloque{
-        background-color: aquamarine;
+        background-color: hsl(256, 26%, 20%);
         height: 270px;
         padding-top: 70px;
+        background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: right;
     }
+
+
 
     .cuarto-bloque__1 h2{
         color:  #ffffff;
@@ -266,7 +281,7 @@
         padding-bottom: 20px;
     }
 
-    .cuarto-bloque__2{
+    .cuarto-bloque__2 {
         text-decoration: none;
         color: #ffffff;
         border: 1px solid #ffffff;
@@ -276,12 +291,19 @@
         margin-top: 20px;
     }
 
+    .cuarto-bloque__2 a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
     .quinto-bloque{
         margin-top: 130px;
         padding: 40px;
         padding-top: 70px;
         line-height: 40px;
-        background-color: hsl(270, 9%, 17%);
+        background-color: hsl(0, 0%, 98%);
+        background-image: url(./images/bg-pattern-footer-mobile.svg);
+        background-repeat: no-repeat;
     }
 
     .quinto-bloque::before{
