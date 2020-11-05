@@ -152,27 +152,17 @@
 }
 
 @media (max-width: 420px){
-    .container{
-        position: relative;
-    }
 
-    .primer-bloque{
-        padding: 20px;
-    }
+    .container{position: relative;}
 
-    .primer-bloque__1{
-        padding-top: 20px;
-    }
-    .primer-bloque__2{
-        font-size: 0px;
-    }
-    .segundo-bloque{
-    }
+    .primer-bloque{ padding: 20px;}
 
+    .primer-bloque__1{padding-top: 20px;}
 
-    .segundo-bloque__1{
-        height: 950px; 
-    }
+    .primer-bloque__2{font-size: 0px;}
+
+    .segundo-bloque__1{ height: 950px;}
+
     .segundo-bloque__1__1{
         background-color: hsl(256, 26%, 20%);
         align-items: center;
@@ -201,7 +191,6 @@
         text-align: center;
         padding: 0px;
         margin: 0px;
-
     }
 
     .segundo-bloque__1__1 p{
@@ -245,6 +234,7 @@
     .tercer-bloque__2__1{
         padding-bottom: 45px;
     }
+
     .tercer-bloque__2__1 h3{
         font-size: 23px ;
         margin: 0px;
@@ -257,6 +247,7 @@
         text-align: center;
         padding-left: 10px ;
         padding-right: 10px ;
+        color: hsl(273, 4%, 51%) 
     }
 
     .cuarto-bloque{
@@ -267,8 +258,6 @@
         background-repeat: no-repeat;
         background-position: right;
     }
-
-
 
     .cuarto-bloque__1 h2{
         color:  #ffffff;
@@ -306,21 +295,28 @@
         background-repeat: no-repeat;
     }
 
-    .quinto-bloque::before{
-        display: block;
-        content: "";
-        border-bottom: 1px solid green;
-        position: absolute;
-        width: 80%;
+    .quinto-bloque__1{ padding-bottom: 17px;}
 
+    .quinto-bloque__2{grid-gap: 20px;}
+
+    .sexto-bloque{border-top: 1px solid hsl(273, 4%, 51%);}
+
+    .sexto-bloque__1{
+        padding-top:50px ;
+        color: hsl(273, 4%, 51%) ;
+    }
+    
+    .sexto-bloque__1__1{padding-bottom: 25px;}
+
+    .sexto-bloque__1__2 { grid-gap: 10px;}
+
+    .sexto-bloque__1__2 a{
+        text-decoration: none;
+        color: #000000;
     }
 
-    .quinto-bloque__1{
-        padding-bottom: 17px;
-    }
-
-    .quinto-bloque__2{
-        grid-gap: 20px;
-    }
+  .attribution{
+      padding: 30px;
+  }
 
 }
