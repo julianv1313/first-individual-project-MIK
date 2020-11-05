@@ -24,12 +24,12 @@
         flex-direction: row;  
     }
     
-    .segundo-bloque .segundo-bloque__1{
+    .segundo-bloque__1{
         display: flex;
         flex-direction: row;  
     }
     
-    .segundo-bloque .segundo-bloque__1 .segundo-bloque__1__1{
+   .segundo-bloque__1{
         display: flex;
         flex-direction: row;  
     }
@@ -44,11 +44,11 @@
         flex-direction: row;
     }
     
-    .cuarto-bloque{
+   .cuarto-bloque{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
+ }
     
     
     .quinto-bloque{
