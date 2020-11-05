@@ -36,6 +36,7 @@
         height: 950px;
         justify-content: center;
         
+        
     }
      .segundo-bloque::before{
         background-color: hsl(256, 26%, 20%);
@@ -44,7 +45,8 @@
         position: absolute;
         max-width: 1440px;
         width: 100%;
-        height: 85%;
+        height: 80%;
+        height: 640px;
         
      }
     
@@ -61,6 +63,7 @@
         position: relative;
         max-width: 80%;
         padding-top: 100px;
+        min-width: 800px;
     }
     
     .segundo-bloque__1__1 h2 {
@@ -176,12 +179,30 @@
     }
     
     .quinto-bloque{
-        max-width: 80%;
+        border: 1px solid green;
         width: 1440px;
-        justify-content: space-between;
-        height: 100px;
-        align-items: center;
+        max-width: 89%;
+        height: 300px;
+        background-image: url(./images/bg-pattern-footer-desktop.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-color:;
     }
+    
+    .quinto-bloque__1{
+        display: flex;
+        justify-content: space-between;
+        padding: 40px;
+        border-bottom: hsl(273, 4%, 51%) 2.2px solid;
+    }
+
+    .quinto-bloque__2{
+        padding: 40px;
+        justify-content: space-between;
+    }
+
+
+    /*
     
     .quinto-bloque .quinto-bloque__2{
         grid-gap: 20px;
@@ -202,7 +223,7 @@
     .sexto-bloque .sexto-bloque__1 .sexto-bloque__1__2 a{
         text-decoration: none;
         color: black;
-    }
+    }*/
 }
 
 @media (max-width: 420px){
